@@ -1,0 +1,222 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+body {
+text-align: center;
+text-transform: capitalize;
+color: ;
+background-color: black;
+opacity: 0.90;
+margin: 0 auto;
+color: papayawhip;
+overflow-x: hidden;
+}
+
+/* Header */
+
+header {
+display: flex;
+position: fixed;
+border-bottom: 1px solid seashell;
+background-color: black;
+height: 70px;
+width: 100%;
+z-index: 10;
+
+}
+
+.logo img {
+height: 50px;
+padding: 10px;
+}
+
+header .container {
+display: flex;
+}
+
+header ul {
+display: inline-flex;
+font-size: 1.1rem;
+text-decoration: underline;
+}
+
+header li {
+position: relative;
+top: 12px;
+padding: 15px;
+overflow: hidden;
+left: 45rem;
+font-family: 'Kurale', serif;
+letter-spacing: 1px;
+}
+
+/* background */
+
+.hero {
+position: relative;
+top: 70px;
+background-image: url('./images/img-mission-background.jpg');
+height: 700px;
+background-size: cover;
+background-position: center;
+color: whitesmoke;
+}
+
+.hero h1 {
+font-family: 'Vidaloka', serif;
+font-size: 2.2rem;
+font-weight: bold;
+letter-spacing: 1px;
+}
+
+.hero h3 {
+font-family: 'ZCOOL XiaoWei', serif;
+font-size: 1.3rem;
+font-weight: bold;
+letter-spacing: 1.5px;
+}
+
+.black {
+background-color: black;
+position: relative;
+top: 290px;
+padding: 0.90rem;
+width: 1255px;
+}
+
+/* Cozy Session */
+
+.cozy {
+width: 1000px;
+position: relative;
+top: 100px;
+display: inline-block;
+margin: 1rem;
+padding: 1rem;
+line-height: 1.6;
+}
+
+.cozy h2 {
+font-weight: 900;
+font-family: 'Libre Baskerville', serif;
+font-size: 2rem;
+letter-spacing: 1px;
+}
+
+.cozy h4 {
+font-size: 1.3rem;
+font-weight: bold;
+font-family: 'Raleway', sans-serif;
+}
+
+.image,
+.image-1 {
+display: -webkit-inline-box;
+position: relative;
+margin: 1.4rem 1.2rem;
+font-family: 'Berkshire Swash', cursive;
+font-size: 1.2rem;
+font-weight: bold;
+letter-spacing: 1px;
+}
+
+.image-1 {
+top: 1rem;
+}
+
+.image {
+right: 5rem;
+}
+
+.image img,
+.image-1 img {
+width: 300px;
+height: 200px;
+border-radius: 8px;
+}
+
+h5 {
+position: relative;
+top: 13rem;
+right: 13rem;
+}
+
+/* Location */
+
+.location {
+background-image: url('./images/img-locations-background.jpg');
+height: 500px;
+background-size: cover;
+background-position: center;
+margin-top: 9rem;
+}
+
+.location h1 {
+padding-top: 1rem;
+font-size: 2rem;
+font-weight: bold;
+font-family: 'Elsie Swash Caps', cursive;
+letter-spacing: 2px;
+}
+
+.content {
+position: relative;
+padding-top: 15px;
+display: flex;
+left: 11rem;
+}
+
+.bottom {
+background-color: black;
+border: 1.5px solid seashell;
+margin: 1.5rem 1rem;
+padding: 3rem;
+line-height: 2;
+border-radius: 6px;
+}
+
+.bottom h3 {
+font-size: 1.5rem;
+font-weight: normal;
+font-family: 'Berkshire Swash', cursive;
+letter-spacing: 1px;
+padding-bottom: 1rem;
+}
+
+.bottom li {
+overflow: hidden;
+padding: 3px;
+font-family: 'Lobster Two', cursive;
+font-size: 1.1rem;
+font-weight: normal;
+letter-spacing: 1.5px;
+}
+
+/* Footer */
+
+footer {
+padding-top: 1.2rem;
+line-height: 3;
+}
+
+.left {
+text-align: left;
+padding-left: 1rem;
+padding-top: 1rem;
+}
+
+footer h2 {
+font-family: 'Raleway', sans-serif;;
+font-size: 2rem;
+font-weight: bold;
+padding-bottom: 1.5rem;
+}
+
+footer h6 {
+font-size: 1.1rem;
+font-weight: bold;
+font-family: 'Italiana', serif;
+line-height: 1.2;
+}
